@@ -24,3 +24,12 @@ while let obj = iterator.next() {
     print(obj)
 }
 
+let a: String? = "哈哈" // let a = Optional.some("哈哈")
+if case .some(let x) = a {
+    print(x)
+}
+
+if case let x? = a {
+    print("2===\(x)")
+}
+

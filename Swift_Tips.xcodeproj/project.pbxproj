@@ -33,6 +33,7 @@
 /* Begin PBXFileReference section */
 		EF2874EC1ED9373B00C096D1 /* Operator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operator.playground; sourceTree = "<group>"; };
 		EF2874ED1ED9393A00C096D1 /* 字面量.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "字面量.playground"; path = "../../字面量.playground"; sourceTree = "<group>"; };
+		EF4EE1711EEE4D2C0053DFF6 /* 模式匹配.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "模式匹配.playground"; sourceTree = "<group>"; };
 		EF50147A1ECC08930082606F /* AutoClosure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AutoClosure.playground; sourceTree = "<group>"; };
 		EF67BCFF1ECD595A000D334C /* 操作符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "操作符.playground"; sourceTree = "<group>"; };
 		EF7747C11EE11F7F0085EAC7 /* Typealias.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Typealias.playground; sourceTree = "<group>"; };
@@ -46,11 +47,15 @@
 		EF7A7F131EC571B200EF7574 /* Currying.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Currying.playground; sourceTree = "<group>"; };
 		EF7A7F141EC571B200EF7574 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		EF7A7F161EC5721D00EF7574 /* Protocol_Mutating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol_Mutating.swift; sourceTree = "<group>"; };
+		EF7BADFA1EE663D100C89C6E /* 初始化方法顺序.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "初始化方法顺序.playground"; sourceTree = "<group>"; };
 		EF8CF8B41EDFCAF20074F075 /* 下标.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "下标.playground"; sourceTree = "<group>"; };
 		EF8CF8B51EDFCE760074F075 /* 方法嵌套.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "方法嵌套.playground"; path = "../../方法嵌套.playground"; sourceTree = "<group>"; };
+		EFA181E31EE7B80800BC22A2 /* Static和Class.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Static和Class.playground"; sourceTree = "<group>"; };
 		EFAF8B1C1ECAB57900DF870E /* Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
 		EFAF8B2D1ECAB76700DF870E /* Swift_mac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_mac; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAF8B2F1ECAB76700DF870E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EFE4686F1EE5108200077080 /* Associatedtype.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Associatedtype.playground; sourceTree = "<group>"; };
+		EFFDDC0E1EEFA125005AB7E4 /* AnyClass，元类型和 .self.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "AnyClass，元类型和 .self.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +129,11 @@
 				EF67BCFF1ECD595A000D334C /* 操作符.playground */,
 				EF8CF8B41EDFCAF20074F075 /* 下标.playground */,
 				EF7747C11EE11F7F0085EAC7 /* Typealias.playground */,
+				EFE4686F1EE5108200077080 /* Associatedtype.playground */,
+				EF7BADFA1EE663D100C89C6E /* 初始化方法顺序.playground */,
+				EFA181E31EE7B80800BC22A2 /* Static和Class.playground */,
+				EF4EE1711EEE4D2C0053DFF6 /* 模式匹配.playground */,
+				EFFDDC0E1EEFA125005AB7E4 /* AnyClass，元类型和 .self.playground */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";
