@@ -109,3 +109,47 @@ class C: B {
 
 let c = C()
 c.number = 2
+
+
+//Lazy
+
+//round1
+do {
+    let data = 1...3
+    
+    let resukt = data.map{ i -> Int in
+        print("正在处理 \(i)")
+        return i * 2
+    }
+    
+    print("准备处理结果")
+    
+    for i in resukt {
+        print("结果为\(i)")
+    }
+    
+    print("操作完成")
+}
+
+
+//round2
+print("=============round2=====")
+do {
+    let data = 1...3
+    
+    let resukt = data.lazy.map{ i -> Int in
+        print("正在处理 \(i)")
+        return i * 2
+    }
+    
+    print("准备处理结果")
+    
+    for i in resukt {
+        print("结果为\(i)")
+    }
+    
+    print("操作完成")
+}
+
+
+

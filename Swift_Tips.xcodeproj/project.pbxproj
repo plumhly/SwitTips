@@ -51,9 +51,11 @@
 		EF8CF8B41EDFCAF20074F075 /* 下标.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "下标.playground"; sourceTree = "<group>"; };
 		EF8CF8B51EDFCE760074F075 /* 方法嵌套.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "方法嵌套.playground"; path = "../../方法嵌套.playground"; sourceTree = "<group>"; };
 		EFA181E31EE7B80800BC22A2 /* Static和Class.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Static和Class.playground"; sourceTree = "<group>"; };
+		EFA8C2251EF78740005BF9FA /* Reflection和Mirror.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Reflection和Mirror.playground"; sourceTree = "<group>"; };
 		EFAF8B1C1ECAB57900DF870E /* Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
 		EFAF8B2D1ECAB76700DF870E /* Swift_mac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_mac; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAF8B2F1ECAB76700DF870E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EFC14DFD1EFA1EAA000C32A6 /* Protocol Extention.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Protocol Extention.playground"; sourceTree = "<group>"; };
 		EFE4686F1EE5108200077080 /* Associatedtype.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Associatedtype.playground; sourceTree = "<group>"; };
 		EFFDDC0E1EEFA125005AB7E4 /* AnyClass，元类型和 .self.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "AnyClass，元类型和 .self.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,6 +136,8 @@
 				EFA181E31EE7B80800BC22A2 /* Static和Class.playground */,
 				EF4EE1711EEE4D2C0053DFF6 /* 模式匹配.playground */,
 				EFFDDC0E1EEFA125005AB7E4 /* AnyClass，元类型和 .self.playground */,
+				EFA8C2251EF78740005BF9FA /* Reflection和Mirror.playground */,
+				EFC14DFD1EFA1EAA000C32A6 /* Protocol Extention.playground */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";

@@ -33,3 +33,14 @@ if case let x? = a {
     print("2===\(x)")
 }
 
+do {
+    var aNil: String? = nil
+    var anotherNil: String?? = aNil//some
+    
+    var literalNil: String?? = nil
+    
+    print("") //fr v -R
+    
+
+}
+
