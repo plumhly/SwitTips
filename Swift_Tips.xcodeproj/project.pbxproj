@@ -16,6 +16,8 @@
 		EFAF8B1D1ECAB57900DF870E /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF8B1C1ECAB57900DF870E /* Sequence.swift */; };
 		EFAF8B301ECAB76700DF870E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF8B2F1ECAB76700DF870E /* main.swift */; };
 		EFAF8B351ECAB7D400DF870E /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF8B1C1ECAB57900DF870E /* Sequence.swift */; };
+		EFC88C661F0A4F0C00F84F9F /* KVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC88C651F0A4F0C00F84F9F /* KVO.swift */; };
+		EFF4E3341F09E6B7000478FC /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF4E3331F09E6B7000478FC /* Delay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,7 +58,11 @@
 		EFAF8B2D1ECAB76700DF870E /* Swift_mac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_mac; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAF8B2F1ECAB76700DF870E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EFC14DFD1EFA1EAA000C32A6 /* Protocol Extention.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Protocol Extention.playground"; sourceTree = "<group>"; };
+		EFC88C651F0A4F0C00F84F9F /* KVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVO.swift; sourceTree = "<group>"; };
+		EFD392AD1F060A5E00C174B8 /* UnsafePointer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UnsafePointer.playground; sourceTree = "<group>"; };
 		EFE4686F1EE5108200077080 /* Associatedtype.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Associatedtype.playground; sourceTree = "<group>"; };
+		EFF4E3331F09E6B7000478FC /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		EFF4E3351F0A2841000478FC /* 获取对象类型.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "获取对象类型.playground"; sourceTree = "<group>"; };
 		EFFDDC0E1EEFA125005AB7E4 /* AnyClass，元类型和 .self.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "AnyClass，元类型和 .self.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,6 +144,8 @@
 				EFFDDC0E1EEFA125005AB7E4 /* AnyClass，元类型和 .self.playground */,
 				EFA8C2251EF78740005BF9FA /* Reflection和Mirror.playground */,
 				EFC14DFD1EFA1EAA000C32A6 /* Protocol Extention.playground */,
+				EFD392AD1F060A5E00C174B8 /* UnsafePointer.playground */,
+				EFF4E3351F0A2841000478FC /* 获取对象类型.playground */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";
@@ -147,6 +155,8 @@
 			children = (
 				EF7A7F161EC5721D00EF7574 /* Protocol_Mutating.swift */,
 				EFAF8B1C1ECAB57900DF870E /* Sequence.swift */,
+				EFF4E3331F09E6B7000478FC /* Delay.swift */,
+				EFC88C651F0A4F0C00F84F9F /* KVO.swift */,
 			);
 			path = Swifts;
 			sourceTree = "<group>";
@@ -257,8 +267,10 @@
 			files = (
 				EF7A7F021EC5716700EF7574 /* ViewController.swift in Sources */,
 				EF7A7F001EC5716700EF7574 /* AppDelegate.swift in Sources */,
+				EFC88C661F0A4F0C00F84F9F /* KVO.swift in Sources */,
 				EFAF8B1D1ECAB57900DF870E /* Sequence.swift in Sources */,
 				EF7A7F171EC5721D00EF7574 /* Protocol_Mutating.swift in Sources */,
+				EFF4E3341F09E6B7000478FC /* Delay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +407,7 @@
 				DEVELOPMENT_TEAM = 22Z9PC4Q2J;
 				INFOPLIST_FILE = Swift_Tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D FREE";
 				PRODUCT_BUNDLE_IDENTIFIER = "sigma.Swift-Tips";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -408,6 +421,7 @@
 				DEVELOPMENT_TEAM = 22Z9PC4Q2J;
 				INFOPLIST_FILE = Swift_Tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D FREE";
 				PRODUCT_BUNDLE_IDENTIFIER = "sigma.Swift-Tips";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;

@@ -7,6 +7,14 @@
 //
 
 import Foundation
+import AppKit
+
+
+#if os(macOS)
+    typealias Color = NSColor;
+#else
+    typealias Color = UIColor;
+#endif
 
 print("Hello, World!")
 
@@ -43,4 +51,7 @@ do {
     
 
 }
+
+
+
 

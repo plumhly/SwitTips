@@ -91,3 +91,52 @@ let list = LinkList.node(1, .node(2, .node(3, .node(4, .empty))))
 let result = list.removing(2)
 print(result)
 
+
+//test
+class Myclass {
+    func method(number: Int) -> Int {
+        return number + 1
+    }
+    
+    class func method(number: Int) -> Int {
+        return 3
+    }
+}
+
+let me = Myclass.method
+let ob = Myclass()
+let re = me(1)
+
+let f1: (Int) -> Int = Myclass.method
+let f2: (Myclass) -> (Int) -> (Int) = Myclass.method
+
+let re1 = f1(2)
+let re2 = f2(ob)(1)
+
+/************************
+ ******** 实现协议可选*********
+ **********************/
+
+protocol OptionalProtocol {
+    func optionMethod1()
+    func method2()
+}
+
+extension OptionalProtocol {
+    func optionMethod1() {
+        print("opt")
+    }
+}
+
+
+struct MyStruct: OptionalProtocol {
+    func method2() {
+        print("method2")
+    }
+}
+
+String
+
+
+
+
