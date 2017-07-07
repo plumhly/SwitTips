@@ -20,3 +20,17 @@ print(A.self)
 
 
 
+class Plum: Equatable,Hashable {
+    var hashValue: Int {
+        return 1
+    }
+    
+}
+
+func ==(lhs: Plum, rhs: Plum) -> Bool {
+    return lhs.hashValue == rhs.hashValue
+}
+
+let p1 = Plum()
+let p2 = Plum()
+let re = p1 == p2

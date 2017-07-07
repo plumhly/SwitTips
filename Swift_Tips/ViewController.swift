@@ -36,6 +36,8 @@ class ViewController: UIViewController {
         cancel(task)
         */
         
+        let name = "libo".MD5
+        print(name)
         
     }
 
