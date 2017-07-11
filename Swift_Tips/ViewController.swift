@@ -42,6 +42,13 @@ class ViewController: UIViewController {
         cancel(task)
         */
         
+        var pl = PlumClass()
+        print(pl.title)
+        pl.title = "plum"
+        print(pl.title)
+        
+        
+        
         let name = "libo".MD5
         print(name)
         

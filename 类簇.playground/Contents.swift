@@ -116,3 +116,19 @@ print(result)
 
 let num: NSNumber = 1
 print(String(validatingUTF8: num.objCType))
+
+
+//synchronized
+
+func synchronized(_ lock: AnyClass, closure: ()->()) {
+    objc_sync_enter(lock)
+    closure()
+    objc_sync_exit(lock)
+}
+
+func test(ob: AnyClass) {
+    synchronized(ob) { 
+        //do job
+    }
+}
+
