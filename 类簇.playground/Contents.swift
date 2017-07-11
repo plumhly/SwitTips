@@ -84,5 +84,35 @@ class UM: Pro {
     
 }
 
+//Options
+
+struct YourOption: OptionSet {
+    let rawValue: UInt
+    
+    static let none = YourOption(rawValue: 0)
+    
+    static let option1 = YourOption(rawValue: 1)
+    static let option2 = YourOption(rawValue: 1 << 1)
+    static let option3 = YourOption(rawValue: 1 << 2)
+}
 
 
+print(YourOption.option3.rawValue)
+
+//数组 enumerate 
+
+var aray = [1,3,4,5]
+var result: Int = 0
+for (index, value) in aray.enumerated() {
+    if index < 2 {
+        result += value
+    }
+}
+
+print(result)
+
+
+//encode
+
+let num: NSNumber = 1
+print(String(validatingUTF8: num.objCType))

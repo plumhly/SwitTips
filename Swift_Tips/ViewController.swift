@@ -9,6 +9,9 @@
 
 import UIKit
 
+// 引用c方法
+   @_silgen_name("test") func c_test(a: Int32) -> Int32
+
 class ViewController: UIViewController {
     var tsk: Task? {
         willSet {
@@ -17,10 +20,13 @@ class ViewController: UIViewController {
     }
     
     let objc = Class()
+    
+ 
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        var result = c_test(a: 3)
         
 #if FREE
     print("Free")
