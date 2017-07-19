@@ -132,3 +132,12 @@ func test(ob: AnyClass) {
     }
 }
 
+//range
+
+func random(in range: Range<Int>) -> Int {
+    let count = UInt32(range.upperBound - range.lowerBound)
+    return Int(arc4random_uniform(count)) + range.lowerBound
+}
+
+random(in: 5..<96)
+

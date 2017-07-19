@@ -76,3 +76,5 @@ struct Container2 {
 Container1.MyClass.hello()
 Container2.MyClass.hello()
 
+Unmanaged
+
