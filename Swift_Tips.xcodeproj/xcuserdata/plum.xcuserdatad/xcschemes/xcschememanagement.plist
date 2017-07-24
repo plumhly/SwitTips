@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>HelloKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>Swift_Tips.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,6 +22,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>3829D0261F21B6CE00D3F0B0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3829D02E1F21B6CE00D3F0B0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>EF7A7EFB1EC5716700EF7574</key>
 		<dict>
 			<key>primary</key>
