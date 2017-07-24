@@ -379,7 +379,7 @@
 				TargetAttributes = {
 					3829D0261F21B6CE00D3F0B0 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 22Z9PC4Q2J;
+						DevelopmentTeam = R86UW7Z2FX;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -540,12 +540,13 @@
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 22Z9PC4Q2J;
+				DEVELOPMENT_TEAM = R86UW7Z2FX;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HelloKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = df.HelloKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -564,12 +565,13 @@
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 22Z9PC4Q2J;
+				DEVELOPMENT_TEAM = R86UW7Z2FX;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HelloKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = df.HelloKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -772,6 +774,7 @@
 				3829D0401F21B6CE00D3F0B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3829D0421F21B6CE00D3F0B0 /* Build configuration list for PBXNativeTarget "HelloKitTests" */ = {
 			isa = XCConfigurationList;
@@ -780,6 +783,7 @@
 				3829D0441F21B6CE00D3F0B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF7A7EF71EC5716700EF7574 /* Build configuration list for PBXProject "Swift_Tips" */ = {
 			isa = XCConfigurationList;
